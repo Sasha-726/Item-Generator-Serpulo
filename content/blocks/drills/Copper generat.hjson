@@ -1,0 +1,21 @@
+type:GenericCrafter
+name:"Copper generat"
+description:Generates copper.
+health:50
+size:1
+hasItems:true
+craftTime:300
+idleSound:"smelter"
+updateEffect:"smoke"
+category:"production"
+itemCapacity:1
+research: "Crystal farm"
+consumes:{
+power:5
+}
+requirements:[
+{item:"copper",amount:1000}
+{item:"Plata",amount:15}
+{item:"Crystal creation",amount:20}
+]
+outputItem:{item:"copper",amount:1}

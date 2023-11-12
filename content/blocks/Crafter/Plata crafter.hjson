@@ -1,0 +1,25 @@
+type:GenericCrafter
+name:"Plata crafter"
+health:200
+size:2
+hasItems:true
+craftTime: 250
+idleSound:"smelter"
+updateEffect:"smoke"
+category:"crafting"
+itemCapacity:25
+research:"plastanium-compressor"
+requirements:[
+{item:"copper",amount:65}
+{item:"silicon",amount:100}
+{item:"lead",amount:20}
+]
+consumes:{
+power:2
+items:[
+ plastanium/25
+ copper/5
+ lead/10
+]
+}
+outputItem:{item:"Plata",amount:1}
